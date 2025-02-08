@@ -1,8 +1,5 @@
-/* Import Montserrat font */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap');
-
 main {
-    font-family: "Montserrat", sans-serif; /* Use a sans-serif fallback */
+    font-family: "Montserrat", serif;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -10,11 +7,12 @@ main {
 
 .text {
     border-radius: 5px;
-    background-color: #e7e7e7; /* Use shorthand for color */
+    background-color: rgb(231, 231, 231);
     width: 100%;
     max-width: 900px;
     padding: 40px;
 }
+
 
 a {
     text-decoration: none;
@@ -23,20 +21,16 @@ a {
 
 iframe {
     margin-top: 40px;
-    width: 100%; /* Ensure responsiveness */
-    max-width: 900px;
 }
 
 .socials {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 20px; /* Add spacing for better alignment */
 }
 
 .socials p {
     font-size: 2rem;
-    text-align: center; /* Center-align text */
 }
 
 i {
@@ -48,6 +42,4 @@ i {
     flex-direction: row;
     justify-content: space-around;
     width: 100%;
-    max-width: 900px;
-    margin-top: 20px; /* Add spacing */
 }
